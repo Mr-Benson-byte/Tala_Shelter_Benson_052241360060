@@ -1,0 +1,348 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Benson University</title>
+    <!--/google-fonts-->
+    <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+   
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <h1><a class="navbar-brand" href="index.html">
+                    Benson<span class="sub-log">We</span>b
+                    </a></h1>
+               
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <nav class="mr-auto ml-lg-5">
+                        <div class="search-bar">
+                            <form class="search">
+                                <input type="search" class="search__input" name="search"
+                                    placeholder="Search for registration....." onload="equalWidth()" required>
+                                <span class="fa fa-search search__icon"></span>
+                            </form>
+                        </div>
+                    </nav>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faculty.html">faculty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="department.html">department</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="timetable.html">timetable</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="registration.html">registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="payment.html">payment</a>
+                        </li>
+                    </ul>
+                </div>  
+            </nav>
+        </div>
+        <!-- toggle switch for light and dark theme -->
+        <div class="mobile-position">
+            <nav class="navigation">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <div class="mode-container py-1">
+                            <i class="gg-sun"></i>
+                            <i class="gg-moon"></i>
+                        </div>
+                    </label>
+                </div>
+            </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+    </nav>
+</div>
+    </header>
+    <!--/header-->
+    <div class="inner-banner">
+        <section class="w3l-breadcrumb">
+            <div class="container">
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> registration</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="w3l-homeblog py-5" id="homeblog">
+        <div class="container py-lg-5 py-md-4">
+            <div class="header-title mb-3">
+                <b><span class="sub-title">Registration</span></b><hr>  
+            </div>
+            <div class="map-content-9">
+                <div class="timetablect-fm map-content-9 pl-lg-4">
+                    <div class="timetablect-fm-text text-left">
+                        <div class="header-title mb-md-5 mt-4">
+                            
+                            <h3 class="hny-title text-left">Fill out the form.</h3>
+                        </div>
+                        <p class="mb-sm-5 mb-4">All required spaces must not be left out</p>
+                    </div>
+                </div>
+                <div>
+                    <style>
+                h1 {
+                    font-size: 2rem;
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                  }
+                  label {
+                    display: block;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                  }
+                  input[type="text"],
+                  input[type="email"],
+                  input[type="number"],
+                  input[type="tel"],
+                  textarea {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    margin-bottom: 20px;
+                  }
+                  input[type="submit"] {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                  }
+                  input[type="submit"]:hover {
+                    background-color: #45a049;
+                  }
+                     </style>
+                </div>
+                <div>
+                    <form method="post">
+
+                        <form action="upload.php" method="post" enctype="multipart/form-data">
+                            <label for="image">Select an image:</label>
+                            <input type="file" id="image" name="image" accept="image/*"><br>
+                            <button type="submit"><a href="registration.html">Upload</a></button>
+                        </form>
+                        
+                        <div class="twice-two">
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name"
+                                placeholder="firstname" required="">
+
+
+                            <input type="text" class="form-control" name="Lastname" id="w3lSender"
+                                placeholder="Last Name" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="studentnumber" id="studentnumber"
+                                placeholder="Student Number" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="Date of birth" id="datebirth"
+                                placeholder="Date of birth" required="">
+                        </div>
+
+                        <div class="twice">
+                            <input type="text" class="form-control" name="telephone" id="telephone"
+                                placeholder="Telephone Number" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="address" id="address"
+                                placeholder="Address" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="email" id="email"
+                                placeholder="Email" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="gender" id="gender"
+                                placeholder="Gender" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="hometown" id="hometown"
+                                placeholder="Hometown" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="place of residence" id="place of residence"
+                                placeholder="Place of residence" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="nationality" id="nationality"
+                                placeholder="Nationality" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="previous School" id="previous School"
+                                placeholder="Previous School" required="">
+                        </div>
+                        <div class="text-right">
+                            <div class="readhny-btm text-center mx-auto mt-md-4">
+                                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="payment.html">Register<span
+                                        class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
+                            </div>   
+                        </div>
+                </div>
+                    </form>
+                </div>
+            </div>
+    <!-- faculty page faculty section -->
+    <!-- timetable1 -->
+    <section class="w3l-timetable-1 py-5" id="timetable">
+        <div class="timetables-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="d-grid timetable-view mb-5 pb-lg-5">
+                    <div class="cont-details">
+                        <div class="timetablect-fm-text text-left mb-md-5 mb-4">
+                            <div class="header-title mb-md-5 mt-4">
+                                <span class="sub-title">Find Us</span>
+                               
+                            </div>
+                            <p class="mb-sm-5 mb-4">Start working with Us that can provide everything you need to
+                                generate awareness,
+                                drive traffic,
+                                connect. <br> We guarantee that you’ll be able to have any issue resolved within 24
+                                hours.</p>
+
+                        </div>
+                        <div class="cont-top">
+                            <div class="cont-left text-center">
+                                <span class="fa fa-phone"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Phone number</h6>
+                                <p><a href="tel:+(21) 255 088 4943">+(21) 255 088 4943</a></p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-left text-center">
+                                <span class="fa fa-envelope-o"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Send Email</h6>
+                                <p><a href="mailto:Bensonuniversity@yahoo.com" class="mail">Bensonuniversity@yahoo.com</a></p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-left text-center">
+                                <span class="fa fa-map-marker"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Office Address</h6>
+                                <p class="pr-lg-5">Address here, 434 Trainer Honey street, London, UK - 62617.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+    </section>
+    <!-- /timetable1 -->
+
+    <!-- footer -->
+<section class="w3l-footer-29-main">
+    <div class="footer-29 py-5">
+      <div class="container py-lg-4">
+        <div class="row footer-top-29">
+          <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+            <div class="footer-logo mb-3">
+              <a class="navbar-brand" href="index.html">Benson University</a>
+            </div>
+            <p> Service Our Pride.</p>
+            <div class="main-social-footer-29 mt-4">
+              <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+              <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+              <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+              <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+  
+            <ul>
+              <h6 class="footer-title-29">Usefull Links</h6>
+              <li><a href="faculty.html">Faculty</a></li>
+              <li><a href="department.html">Department</a></li>
+              <li><a href="payment.html"> Payment Items</a></li>
+              <li><a href="#careers"> Courses</a></li>
+              <li><a href="blog.html"> Timetable</a></li>
+              <li><a href="registration.html">register with us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">More Info</h6>
+            <ul>
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#vision">Vision & Values</a></li>
+              <li><a href="#history">History</a></li>
+              <li><a href="#leader">Leadership</a></li>
+              <li><a href="#help">Help</a></li>
+              <li><a href="#support"> Support</a></li>
+            </ul>
+  
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">Contact Info </h6>
+            <p><strong>Address :</strong> Benson University, 7.</p>
+            <p class="my-2"><strong>Phone :</strong> <a href="tel:+12 23456799">+12 23456799</a></p>
+            <p><strong>Email :</strong> <a href="mailto:Bensonuniversity@yahoo.com">Bensonuniversity@yahoo.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //footer -->
+  
+    <!-- copyright -->
+    <section class="w3l-copyright">
+        <div class="container">
+            <div class="row bottom-copies">
+                <p class="col-lg-8 copy-footer-29">© 2024 Benson University. All rights reserved. 
+  
+                <div class="col-lg-4 footer-list-29">
+                    <ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+                        <li><a href="#careers"> Courses</a></li>
+                        <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+                        <li><a href="registration.html">Contact us</a></li>
+                    </ul>
+                </div>
+  
+            </div>
+        </div>
+  
+  </body>
+  
+  </html>
